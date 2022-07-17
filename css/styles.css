@@ -1,28 +1,25 @@
-/* .header-mail:hover
-.header-number:focus
-.footer-mail:hover
+ .header-mail:hover,
+.header-number:focus,
+.footer-mail:hover,
 .footer-number{
     color:  #2196F3
-} */
+} 
 
-.logo{
-    position: absolute;
-width: auto;
-height: 31px;
-left: 215px;
-top: 24px;
-
+.header-logo{
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19px;
 /* identical to box height */
-
 letter-spacing: 0.03em;
-
+text-decoration: none;
 color: #2196F3;
 
+}
+
+.acent{
+    color: #000000;
 }
 .header-studio{
     position: absolute;
@@ -157,31 +154,6 @@ color: #FFFFFF;
 
 
 }
-
-.minbuton{
-    position: absolute;
-    width: 136px;
-    height: 30px;
-    left: 732px;
-    top: 440px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-    
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    
-    color: #FFFFFF;
-    
-    
-}
-
 
 /* наши преимущества */
 .letter-styleone{
@@ -366,7 +338,7 @@ color: #212121;
 
 }
 
-.product-planshet{
+/* .product-planshet{
     position: absolute;
 width: 370px;
 height: 294px;
@@ -395,7 +367,7 @@ left: 1015px;
 top: 1061px;
 background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 mix-blend-mode: normal;    
-}
+} */
 
 .teamtitle{
     position: absolute;
@@ -417,7 +389,7 @@ color: #212121;
 }
 
 
-.teamone{
+/* .teamone{
     position: absolute;
     width: 270px;
     height: 260px;
@@ -427,7 +399,7 @@ color: #212121;
     background: url(4853.jpg);
     border-radius: 0px;
 
-}
+} */
 
 .nameone{
     position: absolute;
@@ -469,7 +441,7 @@ color: #757575;
 
 }
 
-.teamtwo{
+/* .teamtwo{
     position: absolute;
 width: 270px;
 height: 260px;
@@ -478,7 +450,7 @@ top: 1635px;
 
 background: url(5844.jpg);
 border-radius: 0px;
-}
+} */
 
 .nametwo{
     position: absolute;
@@ -523,7 +495,7 @@ color: #757575;
 
 }
 
-.teamthree{
+/* .teamthree{
     position: absolute;
 width: 270px;
 height: 260px;
@@ -532,7 +504,7 @@ top: 1635px;
 
 background: url(16166.jpg);
 border-radius: 0px;
-}
+} */
 
 .namethree{
     position: absolute;
@@ -579,7 +551,7 @@ color: #757575;
 
 }
 
-.teamfour{
+/* .teamfour{
     position: absolute;
 width: 270px;
 height: 260px;
@@ -588,7 +560,7 @@ top: 1635px;
 
 background: url(2968.jpg);
 border-radius: 0px;
-}
+} */
 
 .namefour{
     position: absolute;
@@ -632,8 +604,22 @@ color: #757575;
 
 }
 
+.footer-logo{
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19px;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+        color: #2196F3;
+        
+        }
+        
+        .acent-footer{
+            color: #FFFFFF;
+}
+
 .footer-theme{
-    position: absolute;
 width: 1600px;
 height: 252px;
 left: 0px;
@@ -838,7 +824,7 @@ color: #212121;
 
 }
 
-.portfoliofoto-one{
+/* .portfoliofoto-one{
     position: absolute;
     width: 370px;
     height: 294px;
@@ -938,10 +924,10 @@ left: 1015px;
 top: 1130px;
 
 background: url(2910404.jpg);
-}
+} */
 
 .pidval{
-    position: absolute;
+
 width: 1600px;
 height: 252px;
 left: 0px;
