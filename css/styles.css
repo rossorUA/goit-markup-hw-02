@@ -128,10 +128,20 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #757575;
-
-
 }
 
+.name-theme{
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        /* or 136% */
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
 .main-theme{
 width: 1600px;
 height: 600px;
@@ -180,82 +190,6 @@ top: 2208px;
 
 }
 
-/* .product-planshet{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 1061px;
-
-background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
-mix-blend-mode: normal;
-}
-
-.product-telephone{
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    left: 615px;
-    top: 1061px;
-    background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
-    mix-blend-mode: normal;
-}
-
-.product-model{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 1061px;
-background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
-mix-blend-mode: normal;    
-} */
-
-
-/* .teamone{
-    position: absolute;
-    width: 270px;
-    height: 260px;
-    left: 215px;
-    top: 1635px;
-    
-    background: url(4853.jpg);
-    border-radius: 0px;
-
-} */
-
-/* .teamtwo{
-    position: absolute;
-width: 270px;
-height: 260px;
-left: 515px;
-top: 1635px;
-
-background: url(5844.jpg);
-border-radius: 0px;
-} */
-
-/* .teamthree{
-    position: absolute;
-width: 270px;
-height: 260px;
-left: 815px;
-top: 1635px;
-
-background: url(16166.jpg);
-border-radius: 0px;
-} */
-
-/* .teamfour{
-    position: absolute;
-width: 270px;
-height: 260px;
-left: 1115px;
-top: 1635px;
-
-background: url(2968.jpg);
-border-radius: 0px;
-} */
 
 .footer-theme {
     width: 1600px;
@@ -515,108 +449,6 @@ letter-spacing: 0.03em;
 color: #212121;
 
 }
-
-/* .portfoliofoto-one{
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    left: 215px;
-    top: 262px;
-    
-    background: url(portfolio1.jpg);
-
-}
-
-.portfoliofoto-two{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 262px;
-
-background: url(portfolio2.jpg);
-}
-
-.portfoliofoto-three{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 262px;
-
-background: url(portfolio-1.jpg);
-
-}
-
-.portfoliofoto-four{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 696px;
-
-background: url(111.jpg);
-}
-
-.portfoliofoto-five{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 696px;
-
-background: url(portfolio5.jpg);
-}
-
-.portfoliofoto-six{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 696px;
-
-background: url(portfolio-2.jpg);
-}
-
-.portfoliofoto-seven{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 1130px;
-
-background: url(portfolio7.jpg);
-}
-
-.portfoliofoto-seven{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 1130px;
-
-background: url(portfolio7.jpg);
-}
-
-.portfoliofoto-eight{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 1130px;
-
-background: url(portfolio8.jpg);
-}
-
-.portfoliofoto-nine{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 1130px;
-
-background: url(2910404.jpg);
-} */
 
 .pidval{
 
