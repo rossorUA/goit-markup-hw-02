@@ -14,10 +14,10 @@ body {
 .portfolio-tel:hover,
 .portfolio-mail:focus,
 .portfolio-tel:focus,
-.pidval-mail:hover,
-.pidval-tel:hover,
-.pidval-tel:focus,
-.pidval-mail:focus{
+.footer-mail:hover,
+.footer-tel:hover,
+.footer-tel:focus,
+.footer-mail:focus{
     color: #2196F3
 }
 ul {
@@ -41,6 +41,7 @@ color: #2196F3;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    text-decoration: none;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #2196F3;
@@ -60,6 +61,7 @@ color: #2196F3;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
+    text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -69,6 +71,7 @@ color: #2196F3;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
+text-decoration: none;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -78,6 +81,7 @@ color: #212121;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
+text-decoration: none;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -87,6 +91,7 @@ color: #757575
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
+text-decoration: none;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -105,17 +110,17 @@ background: #2F303A;
 }
 .benefits-title,
 .name{
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 1.14;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.19;
             letter-spacing: 0.03em;
             color: #212121;
         }
 .benefits-description,
 .position{
             font-weight: 400;
-            font-size: 14px;
-            line-height: 1.71;
+            font-size: 16px;
+            line-height: 1.19;
             letter-spacing: 0.03em;
             color: #757575;
 }
@@ -141,6 +146,7 @@ font-weight: 700;
 .footer-logo{
         font-family: 'Raleway';
         font-weight: 700;
+        text-decoration: none;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
@@ -149,28 +155,31 @@ font-weight: 700;
 .acent-footer{
     color: #FFFFFF;
 }
-.pidval-adress{
+.footer-adress{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
+        text-decoration: none;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: #FFFFFF;
 }
-.pidval-mail{
+.footer-mail{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
+        text-decoration: none;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }
-.pidval-tel{
+.footer-tel{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
+        text-decoration: none;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -180,6 +189,7 @@ font-weight: 700;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
+text-decoration: none;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -189,6 +199,7 @@ color: #212121;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
+text-decoration: none;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -198,6 +209,7 @@ color: #2196F3;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
+text-decoration: none;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -207,6 +219,7 @@ color: #212121;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
+text-decoration: none;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -216,6 +229,7 @@ color: #757575;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
+text-decoration: none;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -299,6 +313,6 @@ color: #212121;
         letter-spacing: 0.03em;
         color: #757575;
 }
-.pidval{
+.footer-two{
 background: #2F303A;
 }
