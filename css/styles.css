@@ -108,27 +108,52 @@ color: #757575;
 .main-theme{
 background: #2F303A;
 }
-.benefits-title,
+.benefits-title{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
 .name{
+        font-family: 'Roboto';
+            font-style: normal;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.19;
+            text-align: center;
             letter-spacing: 0.03em;
             color: #212121;
         }
-.benefits-description,
+.benefits-description{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
 .position{
+        font-family: 'Roboto';
+            font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 1.19;
+            text-align: center;
             letter-spacing: 0.03em;
             color: #757575;
 }
-.product-title,
+.product-title{}
 .team-title{
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.16;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
