@@ -1,63 +1,50 @@
 :root{
-    color: #000000;
-    color: #2196F3;
-    color: #212121;
-    color: #FFFFFF;
-    color: #757575;
-
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
 }
-
 body {
     background-color: #FFFFFF;
     font-family: Roboto, sans-serif;
 }
-
+.header-mail:hover,
+.header-number:hover,
+.header-mail:focus,
+.header-number:focus,
+.portfolio-mail:hover,
+.portfolio-tel:hover,
+.portfolio-mail:focus,
+.portfolio-tel:focus,
+.pidval-mail:hover,
+.pidval-tel:hover,
+.pidval-tel:focus,
+.pidval-mail:focus{
+    color: #2196F3
+}
 ul {
     list-style: none;
 }
-
-.header-mail:hover,
-.header-number:focus,
-.footer-mail:hover,
-.footer-number:focus {
-    color: #2196F3
-}
-
 .header-logo{
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 1.19px;
-/* identical to box height */
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-decoration: none;
 color: #2196F3;
-
 }
-
 .acent{
     color: #000000;
 }
 .header-studio{
-    position: absolute;
-    width: 49px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    
     color: #2196F3;
-    
-
-}
-
+    }
 .buton{
     color: #FFFFFF;
     background-color: #2196F3;
@@ -70,108 +57,60 @@ color: #2196F3;
         letter-spacing: 0.06em;
 }
 .header-portfolio{
-    position: absolute;
-    width: 76px;
-    height: 16px;
-    left: 552px;
-    top: 32px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    
     color: #212121;
-    
-}
-
+    }
 .header-contacts{
-    position: absolute;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #212121;
-
-
 }
-
 .header-mail{
-    position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #757575
-
 }
-
 .header-number{
-    position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #757575;
 }
-
 .name-theme{
     font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
-        /* or 136% */
-    
+        line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
-        text-transform: uppercase;
-    
         color: #FFFFFF;
 }
 .main-theme{
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-
 background: #2F303A;
 }
-
 .benefits-title,
 .name{
             font-weight: 700;
             font-size: 14px;
             line-height: 1.14;
             letter-spacing: 0.03em;
-            text-transform: uppercase;
             color: #212121;
         }
-
 .benefits-description,
 .position{
             font-weight: 400;
@@ -180,7 +119,6 @@ background: #2F303A;
             letter-spacing: 0.03em;
             color: #757575;
 }
-
 .product-title,
 .team-title{
 font-weight: 700;
@@ -188,286 +126,179 @@ font-weight: 700;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
 }
-
 .adress-theme{
-    /* position: absolute; */
-width: 231px;
-height: 81px;
-left: 215px;
-top: 2208px;
+    width: 231px;
+    height: 81px;
+    left: 215px;
+    top: 2208px;
 
 }
-
-
 .footer-theme {
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
-
     background: #2F303A;
 }
-
 .footer-logo{
         font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
-        line-height: 1.19px;
-        /* identical to box height */
+        line-height: 1.19;
         letter-spacing: 0.03em;
         color: #2196F3;
-        
         }
-        
-        .acent-footer{
-            color: #FFFFFF;
+.acent-footer{
+    color: #FFFFFF;
 }
-
-
 .pidval-adress{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
-        /* or 171% */
-    
+        line-height: 1.71;
         letter-spacing: 0.03em;
-    
         color: #FFFFFF;
 }
-
 .pidval-mail{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
-        /* or 171% */
-    
+        line-height: 1.71;
         letter-spacing: 0.03em;
-    
         color: rgba(255, 255, 255, 0.6);
 }
-
 .pidval-tel{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
-        /* or 171% */
-    
+        line-height: 1.71;
         letter-spacing: 0.03em;
-    
         color: rgba(255, 255, 255, 0.6);
 }
-/* portfolio */
-
 .portfolio-studia{
-    position: absolute;
-width: 49px;
-height: 16px;
-left: 453px;
-top: 32px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #212121;
-
 }
-
 .portfolio-portfolio{
-    position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #2196F3;
-
 }
-
 .portfolio-contacts{
-    position: absolute;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #212121;
-
 }
-
 .portfolio-mail{
-    position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #757575;
-
 }
-
 .portfolio-tel{
-    position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #757575;
 }
-
+.but{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
 .portfoliosections-one{
-    position: absolute;
-    width: 29px;
-    height: 26px;
-    left: 517px;
-    top: 180px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-    
-    text-align: center;
+    line-height: 1.62;
+     text-align: center;
     letter-spacing: 0.03em;
-    
     color: #FFFFFF;
-    
-}
-
-.portfoliosections-two{
-    position: absolute;
-    width: auto;
-    height: 26px;
-    left: 598px;
-    top: 180px;
-    
+    }
+    .portfoliosections-two{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-    
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    
     color: #212121;
-
 }
-
 .portfoliosections-three{
-    position: absolute;
-width: 101px;
-height: 26px;
-left: 734px;
-top: 180px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
+line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-
 color: #212121;
-
 }
-
 .portfoliosections-four{
-    position: absolute;
-width: 59px;
-height: 26px;
-left: 887px;
-top: 180px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
+line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-
 color: #212121;
-
 }
-
 .portfoliosections-five{
-    position: absolute;
-width: 86px;
-height: 26px;
-left: 998px;
-top: 180px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
+line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-
 color: #212121;
-
 }
-
+.portfolio-project{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2.00;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+.portfolio-species{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
 .pidval{
-
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 1628px;
-
 background: #2F303A;
-
 }
